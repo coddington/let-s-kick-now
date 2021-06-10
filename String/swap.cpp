@@ -44,12 +44,6 @@ int main()
 //     }
 //     cout << ans;
 
-  string a="-28824579515";
-
-  long long int k=0;
-  for(int i=0;i<a.size();++i)
-  {
-      k=k*10+a[i]-'0';
-  }
-  cout<<k;
+  string s="neeraj";
+  cout<<s[1]>s[3];
 }
